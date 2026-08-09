@@ -1,4 +1,4 @@
-const user = {
+/*   const user = {
   name: "Utsho",
   age: 26,
   "my address": "something",
@@ -56,5 +56,5 @@ for(let key of keys){
 for(let elem of entries){
     const [key, value] = elem
     console.log(key, value);
-}
+}  */
 

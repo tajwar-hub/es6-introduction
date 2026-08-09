@@ -1,5 +1,5 @@
+/*  // Destructuring for array
 
-// Destructuring for array
 const numbers = [10, 20, 30, 40, 50]
 // const ten = numbers[0]
 // const twenty = numbers[1]
@@ -23,6 +23,38 @@ const student = {
 // const name = student.name
 // const roll = student.roll
 // const math = student.marks.math
-const { age , name:fullName, marks: { philosophy, physics:myPhysics } } = student
 
-console.log(age, fullName,  philosophy, myPhysics);
+const { age , name:fullName, marks: { philosophy, physics:myPhysics } } = student
+console.log(age, fullName,  philosophy, myPhysics);  */
+
+
+ // Destructuring for array
+
+const numbers = [10, 20, 30, 40, 50]
+//const ten = numbers[0]
+//const twenty = numbers[1]
+const  [ten, twenty, , , fifty] = numbers
+
+console.log(ten, twenty, fifty);
+
+
+
+// Destructuring for object
+
+const student = {
+    name: "Rhythm",
+    roll: 14,
+    age: 21, 
+    marks: {
+        physics: 95,
+        philosophy: 91,
+        math: 44
+    }
+}
+
+// const name = student.name
+// const roll = student.roll
+// const math = student.marks.math
+
+const {name, age , fullName, marks: { philosophy, physics} } = student
+console.log( name,age, fullName, philosophy, physics,);  

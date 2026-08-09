@@ -1,4 +1,4 @@
-// Object methods: Keys, values, entries, delete, seal, freeze
+/*  // Object methods: Keys, values, entries, delete, seal, freeze
 
 const user = {
     name: "John Doe",
@@ -21,15 +21,15 @@ const entries = Object.entries(user)
 //     console.log(key, value);
 // }
 
-// delete method
+// delete
+
 // delete user.age
 // delete user.name
 // console.log(user);
 
 
-
-
 // seal 
+
 // Add and delete not allowed but edit is allowed
 const bankAccount = {
     accountNumber: "1234",
@@ -46,6 +46,7 @@ bankAccount.nomineeName = "Something"
 
 
 // freeze
+
 // Add , edit and delete not allowed
 const birthCertificate  = {
     name: "Utsho",
@@ -59,4 +60,4 @@ delete birthCertificate.name
 birthCertificate.cerNumber = "123"
 birthCertificate.new = "test"
 
-console.log(birthCertificate);
+console.log(birthCertificate);   */

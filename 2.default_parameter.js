@@ -1,4 +1,4 @@
-function greet(name = "Guest"){
+/*  function greet(name = "Guest"){
     return "Hello, " + name ;
 }
 
@@ -14,4 +14,22 @@ function makeCoffee(suger = 1){
 
 console.log(makeCoffee(2));
 console.log(makeCoffee(5));
-console.log(makeCoffee());
+console.log(makeCoffee());  */
+
+function name(name = "Rhythm"){
+    return name
+}
+console.log(name());
+
+function name1(){
+    return " "
+}
+
+console.log(name());
+console.log(name1());
+console.log(name("Ahmed Tajwar"))
+
+function number(bool = false){
+
+
+}

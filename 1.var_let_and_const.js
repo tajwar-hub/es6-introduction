@@ -8,6 +8,7 @@ let name;
 name = "Utsho"
 
 
-const country;
+const country = "Bangladesh";
 
-country = "Bangladesh";
+console.log(country)
+
